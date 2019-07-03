@@ -5,6 +5,17 @@
     <title>Document</title>
 </head>
 <body>
-    KKKKKKKKKKKKKKKKKKKKK
+    <div id="app">
+  {{ message }}
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <script>
+        var app = new Vue({
+  el: '#app',
+  data: {
+    message: 'Hello Vue!'
+  }
+})
+    </script>
 </body>
 </html>
